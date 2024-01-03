@@ -25,14 +25,14 @@ const questoes = [
     respostaCorreta: 'Japão'
   },
   { 
-    id: 6, pergunta: 'Qual a civilização mais antiga do mundo?', 
+    id: 6, pergunta: 'Qual é a civilização mais antiga do mundo?', 
     respostasErradas: ['Babilónia', 'Suméria', 'Fenícia'], 
     respostaCorreta: 'Mesopotâmia' 
   },
   { 
     id: 7, pergunta: 'Qual cidade da Grécia Antiga foi incendiada pelos persas?', 
     respostasErradas: ['Esparta', 'Corintio', 'Tebas'], 
-    respostaCorreta: 'Atenas'
+    respostaCorreta: 'Athenas'
   },
   { 
     id: 8, pergunta: 'Qual autor escreveu O Guarani e O Gaúcho?', 
@@ -96,16 +96,59 @@ const questoes = [
   },
   { 
     id: 20, pergunta: 'Em qual ano ocorreu a Revolta da Vacina no Rio de Janeiro?', 
-    respostasErradas: '1904' 
+    respostasErradas: ['1914', '1922', '1956'],
+    respostaCorreta: '1904' 
   },
-  { id: 21, pergunta: 'Em que ano o Brasil sediou a Copa do Mundo pela primeira vez?', respostasErradas: '1950' },
-  { id: 22, pergunta: 'Em que ano foi adotado o Acordo de Paris sobre mudanças climáticas?', respostasErradas: '2015' },
-  { id: 23, pergunta: 'Em qual ano ocorreu a guerra das Malvinas?', respostasErradas: '1982' },
-  { id: 24, pergunta: 'Qual foi o ano em que Martin Luther King realizou o discurso "Eu Tenho um Sonho"?', respostasErradas: '1963' },
-  { id: 25, pergunta: 'Em que ano a União Europeia (UE) foi estabelecida?', respostasErradas: '1993' },
-  { id: 26, pergunta: 'Em que ano a Guerra Civil Espanhola começou?', respostasErradas: '1936' },
-  { id: 27, pergunta: 'Em que ano Nelson Mandela foi libertado da prisão?', respostasErradas: '1990' },
-  { id: 28, pergunta: 'Em que ano a Alemanha foi reunificada após a Guerra Fria?', respostasErradas: '1990' },
-  { id: 29, pergunta: 'Qual foi o ano do acidente nuclear em Chernobyl?', respostasErradas: '1986' },
-  { id: 30, pergunta: 'Em que ano o homem pisou na Lua pela primeira vez?', respostasErradas: '1969' }
+  { 
+    id: 21, pergunta: 'Em qual país foi inventado o chuveiro elétrico?', 
+    respostasErradas: ['França', 'Inglaterra', 'Estados Unidos'],
+    respostaCorreta: 'Brasil'
+  },
+  { 
+    id: 22, pergunta: 'Qual mulher ficou conhecida como "Dama de Ferro"?', 
+    respostasErradas: ['Dilma Rouseff', 'Hilary Clinton', 'Angela Merkel'],
+    respostaCorreta: 'Margareth Thatcher'
+  },
+  { 
+    id: 23, pergunta: 'Qual país saiu como derrotado na guerra das Malvinas?', 
+    respostasErradas: ['Uruguai', 'Venezuela', 'Paraguai'],
+    respostaCorreta: 'Argentina' 
+  },
+  { 
+    id: 24, pergunta: 'Que figura publica realizou o famoso discurso "Eu Tenho um Sonho"?', 
+    respostasErradas: ['Malcom X', 'Barack Obama', 'Chadwick Boseman'],
+    respostaCorreta: 'Martin Luther King Jr.'
+  },
+  { 
+    id: 25, pergunta: 'Em que país é localizado o campo de concentração de Auschwitz?', 
+    respostasErradas: ['Israel', 'França', 'Itália'],
+    respostaCorreta: 'Polônia'
+  },
+  { 
+    id: 26, pergunta: 'Em qual cidade ocorreu o maior acidente nuclear da historia?', 
+    respostasErradas: ['Goiania', 'Fukushima', 'Windscale'],
+    respostaCorreta: 'Chernobyl'
+  },
+  { 
+    id: 27, pergunta: 'Qual o maior artilheiro da história das Copas do Mundo?', 
+    respostasErradas: ['Ronaldo', 'Lionel Messi', 'Kylian Mbappé'],
+    respostaCorreta: 'Miroslav Klose'
+  },
+  { 
+    id: 28, pergunta: 'Quem foi 1° líder da União Soviética?', 
+    respostasErradas: ['Joseph Stalin', 'Leon Trotsky', 'Karl Marx'],
+    respostaCorreta: 'Vladimir Lenin'
+  },
+  { 
+    id: 29, pergunta: 'Qual batalha decisiva marcou o fim da Segunda Guerra Mundial?', 
+    respostasErradas: ['Batalha de Stalingrado', 'Batalha da Normandia', 'Batalha das Ardenas'], 
+    respostaCorreta: 'Batalha de Midway'
+  },
+  { 
+    id: 30, pergunta: 'Qual líder militar unificou o Japão durante o periodo Sengoku? ', 
+    respostasErradas: ['Date Masamune', 'Takeda Shinghen', 'Toyotomi Hideyoshi'], 
+    respostaCorreta: 'Oda Nobunaga'
+  }
 ];
+
+export default questoes;
